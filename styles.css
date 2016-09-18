@@ -1,9 +1,32 @@
-.hero-image {
-  position: absolute;
+html {
 }
 
-.nav-list {
-  list-style: none;
+.section-content {
+  /*width: 1200px;*/
+  overflow-x: hidden;
+}
+
+.section-hero {
+}
+
+.hero-image {
+  background-size:100% auto;
+}
+
+.nav-container {
+  
+}
+
+/*.navbar-header {
+}
+
+.nav-content {
   color: white;
-  font-weight: 600;
-  overflow: hidden;
+  font-weight: 500;
+  margin: 20px auto;
+  width: auto;
+}
+
+.hero-welcome {
+  color: blue;
+}*/
