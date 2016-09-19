@@ -1,9 +1,6 @@
 html {
 }
 
-body {
-  font-family: Raleway, sans-serif;
-}
 .section-content {
   overflow-x: hidden;
   padding: 150px auto;
@@ -48,13 +45,6 @@ body {
   height: 1000px;
   } 
 
-.intro-container {
-  border-bottom: 1px solid #909090;
-}
-.resume {
-  border-top: 1px solid #909090;
-}
-
 .section-experience {
   height: 1000px;
   background-color: yellow;
@@ -66,5 +56,5 @@ body {
 }
 
 .section-contact {
-   margin: 0 auto 120px;
+   margin: 0 auto 80px;
 }
