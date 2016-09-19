@@ -4,11 +4,6 @@
         overflow-x: hidden;
         padding: 150px auto;
     }
-
-    .icon {
-        width: 64px;
-    }
-
     .section-nav {
         .navbar {
             background-color: #505050;
@@ -35,26 +30,29 @@
     }
 
     .section-about {
-        height: 1000px;
-        .resume {
+        .intro-container {
+            margin-top: 50px;
+            .intro-copy {
+                margin-top: 100px;
+            }
         }
     }
 
-    .section-experience {
-        height: 1000px;
-        background-color: yellow;
-    }
+    // .section-experience {
+    //     height: 1000px;
+    //     background-color: yellow;
+    // }
 
-    .section-project {
-        height: 1000px;
-        background-color: green;
-    }
+    // .section-project {
+    //     height: 1000px;
+    //     background-color: green;
+    // }
 
-    .section-contact {
-        .container {
-            margin: 0 auto 80px;
-        }
-    }
+    // .section-contact {
+    //     .container {
+    //         margin: 0 auto 80px;
+    //     }
+    // }
 
     // shared
     .section-about,
@@ -63,6 +61,13 @@
     .section-contact {
         .title {
             padding-top: 80px;
+            border-bottom: 1px solid #909090;
+            width: 400px;
+            margin: 0 auto;
+        }
+        .icon {
+            width: 64px;
+            margin: 20px;
         }
     }
 }

@@ -2,9 +2,6 @@
   overflow-x: hidden;
   padding: 150px auto; }
 
-.page-main .icon {
-  width: 64px; }
-
 .page-main .section-nav .navbar {
   background-color: #505050; }
 
@@ -22,22 +19,23 @@
   color: white;
   top: 300px; }
 
-.page-main .section-about {
-  height: 1000px; }
-
-.page-main .section-experience {
-  height: 1000px;
-  background-color: yellow; }
-
-.page-main .section-project {
-  height: 1000px;
-  background-color: green; }
-
-.page-main .section-contact .container {
-  margin: 0 auto 80px; }
+.page-main .section-about .intro-container {
+  margin-top: 50px; }
+  .page-main .section-about .intro-container .intro-copy {
+    margin-top: 100px; }
 
 .page-main .section-about .title,
 .page-main .section-experience .title,
 .page-main .section-project .title,
 .page-main .section-contact .title {
-  padding-top: 80px; }
+  padding-top: 80px;
+  border-bottom: 1px solid #909090;
+  width: 400px;
+  margin: 0 auto; }
+
+.page-main .section-about .icon,
+.page-main .section-experience .icon,
+.page-main .section-project .icon,
+.page-main .section-contact .icon {
+  width: 64px;
+  margin: 20px; }
