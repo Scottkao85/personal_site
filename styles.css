@@ -2,7 +2,6 @@ html {
 }
 
 .section-content {
-  /*width: 1200px;*/
   overflow-x: hidden;
   padding: 150px auto;
 }
@@ -21,7 +20,6 @@ html {
   color: white;
   font-weight: 500;
   margin: 16px auto;
-  /*width: auto;*/
 }
 
 .image-container {
@@ -35,9 +33,16 @@ html {
   top: 300px;
 }
 
+.title {
+  padding-top: 80px;
+}
+
+.icon {
+  width: 64px;
+}
+
 .section-about {
   height: 1000px;
-  background-color: blue;
   } 
 
 .section-experience {
@@ -51,6 +56,5 @@ html {
 }
 
 .section-contact {
-  height: 1000px;
-  background-color: red;
+   margin: 0 auto 80px;
 }
