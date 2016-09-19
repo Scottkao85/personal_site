@@ -1,42 +1,45 @@
-.section-content {
+.page-main .section-content {
   overflow-x: hidden;
   padding: 150px auto; }
 
-.section-nav .navbar {
+.page-main .icon {
+  width: 64px; }
+
+.page-main .section-nav .navbar {
   background-color: #505050; }
 
-.section-nav .nav-content {
+.page-main .section-nav .nav-content {
   color: white;
   font-weight: 500;
   margin: 16px auto; }
 
-.section-hero .hero-image .image-container {
+.page-main .section-hero .hero-image .image-container {
   position: relative; }
 
-.section-hero .hero-welcome {
+.page-main .section-hero .hero-welcome {
   position: absolute;
   z-index: 1;
   color: white;
   top: 300px; }
 
-.icon {
-  width: 64px; }
-
-.section-about {
+.page-main .section-about {
   height: 1000px; }
-  .section-about .title {
-    padding-top: 80px; }
-  .section-about .resume {
+  .page-main .section-about .resume {
     background-color: black; }
 
-.section-experience {
+.page-main .section-experience {
   height: 1000px;
   background-color: yellow; }
 
-.section-project {
+.page-main .section-project {
   height: 1000px;
   background-color: green; }
 
-.section-contact .container {
-  background-color: black;
+.page-main .section-contact .container {
   margin: 0 auto 80px; }
+
+.page-main .section-about .title,
+.page-main .section-experience .title,
+.page-main .section-project .title,
+.page-main .section-contact .title {
+  padding-top: 80px; }

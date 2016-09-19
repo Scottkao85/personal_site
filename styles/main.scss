@@ -23,7 +23,7 @@
     .section-hero {
         .hero-image {
             .image-container {
-            position: relative;
+                position: relative;
             }
         }
         .hero-welcome {
@@ -36,9 +36,6 @@
 
     .section-about {
         height: 1000px;
-        .title {
-            padding-top: 80px;
-        }
         .resume {
             background-color: black;
         }
@@ -56,8 +53,17 @@
 
     .section-contact {
         .container {
-            background-color: black;
             margin: 0 auto 80px;
+        }
+    }
+
+    // shared
+    .section-about,
+    .section-experience,
+    .section-project,
+    .section-contact {
+        .title {
+            padding-top: 80px;
         }
     }
 }
