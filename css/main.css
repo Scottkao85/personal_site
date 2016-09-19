@@ -1,0 +1,42 @@
+.section-content {
+  overflow-x: hidden;
+  padding: 150px auto; }
+
+.section-nav .navbar {
+  background-color: #505050; }
+
+.section-nav .nav-content {
+  color: white;
+  font-weight: 500;
+  margin: 16px auto; }
+
+.section-hero .hero-image .image-container {
+  position: relative; }
+
+.section-hero .hero-welcome {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 300px; }
+
+.icon {
+  width: 64px; }
+
+.section-about {
+  height: 1000px; }
+  .section-about .title {
+    padding-top: 80px; }
+  .section-about .resume {
+    background-color: black; }
+
+.section-experience {
+  height: 1000px;
+  background-color: yellow; }
+
+.section-project {
+  height: 1000px;
+  background-color: green; }
+
+.section-contact .container {
+  background-color: black;
+  margin: 0 auto 80px; }
