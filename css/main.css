@@ -1,3 +1,6 @@
+.page-main body {
+  font-family: 'Raleway', sans-serif; }
+
 .page-main .section-content {
   overflow-x: hidden;
   padding: 150px auto; }
@@ -7,22 +10,44 @@
 
 .page-main .section-nav .nav-content {
   color: white;
-  font-weight: 500;
+  font-weight: 300;
   margin: 16px auto; }
 
-.page-main .section-hero .hero-image .image-container {
-  position: relative; }
+.page-main .section-hero .hero-image {
+  margin: 0 auto; }
 
-.page-main .section-hero .hero-welcome {
-  position: absolute;
-  z-index: 1;
-  color: white;
-  top: 300px; }
+.page-main .section-hero .row {
+  position: relative; }
+  @media (min-width: 400px) {
+    .page-main .section-hero .row .hero-intro {
+      position: relative;
+      color: black;
+      border-bottom: 1px solid #909090; } }
+  @media (min-width: 700px) {
+    .page-main .section-hero .row .hero-intro {
+      bottom: 90px;
+      position: absolute;
+      color: white;
+      border-bottom: none; } }
+  @media (min-width: 1000px) {
+    .page-main .section-hero .row .hero-intro {
+      bottom: 150px; } }
 
 .page-main .section-about .intro-container {
   margin-top: 50px; }
   .page-main .section-about .intro-container .intro-copy {
     margin-top: 100px; }
+
+.page-main .section-experience {
+  height: 1000px;
+  background-color: yellow; }
+
+.page-main .section-project {
+  height: 1000px;
+  background-color: green; }
+
+.page-main .section-contact .container {
+  margin: 0 auto 80px; }
 
 .page-main .section-about .title,
 .page-main .section-experience .title,
