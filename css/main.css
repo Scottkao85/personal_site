@@ -1,0 +1,41 @@
+.page-main .section-content {
+  overflow-x: hidden;
+  padding: 150px auto; }
+
+.page-main .section-nav .navbar {
+  background-color: #505050; }
+
+.page-main .section-nav .nav-content {
+  color: white;
+  font-weight: 500;
+  margin: 16px auto; }
+
+.page-main .section-hero .hero-image .image-container {
+  position: relative; }
+
+.page-main .section-hero .hero-welcome {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 300px; }
+
+.page-main .section-about .intro-container {
+  margin-top: 50px; }
+  .page-main .section-about .intro-container .intro-copy {
+    margin-top: 100px; }
+
+.page-main .section-about .title,
+.page-main .section-experience .title,
+.page-main .section-project .title,
+.page-main .section-contact .title {
+  padding-top: 80px;
+  border-bottom: 1px solid #909090;
+  width: 400px;
+  margin: 0 auto; }
+
+.page-main .section-about .icon,
+.page-main .section-experience .icon,
+.page-main .section-project .icon,
+.page-main .section-contact .icon {
+  width: 64px;
+  margin: 20px; }

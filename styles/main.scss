@@ -1,0 +1,73 @@
+.page-main {
+
+    .section-content {
+        overflow-x: hidden;
+        padding: 150px auto;
+    }
+    .section-nav {
+        .navbar {
+            background-color: #505050;
+        }
+        .nav-content {
+            color: white;
+            font-weight: 500;
+            margin: 16px auto;
+        }
+    }
+
+    .section-hero {
+        .hero-image {
+            .image-container {
+                position: relative;
+            }
+        }
+        .hero-welcome {
+            position: absolute;
+            z-index: 1;
+            color: white;
+            top: 300px;
+        }
+    }
+
+    .section-about {
+        .intro-container {
+            margin-top: 50px;
+            .intro-copy {
+                margin-top: 100px;
+            }
+        }
+    }
+
+    // .section-experience {
+    //     height: 1000px;
+    //     background-color: yellow;
+    // }
+
+    // .section-project {
+    //     height: 1000px;
+    //     background-color: green;
+    // }
+
+    // .section-contact {
+    //     .container {
+    //         margin: 0 auto 80px;
+    //     }
+    // }
+
+    // shared
+    .section-about,
+    .section-experience,
+    .section-project,
+    .section-contact {
+        .title {
+            padding-top: 80px;
+            border-bottom: 1px solid #909090;
+            width: 400px;
+            margin: 0 auto;
+        }
+        .icon {
+            width: 64px;
+            margin: 20px;
+        }
+    }
+}
