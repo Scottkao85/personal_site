@@ -21,14 +21,14 @@
   @media (min-width: 400px) {
     .page-main .section-hero .row .hero-intro {
       position: relative;
-      color: black;
-      border-bottom: 1px solid #909090; } }
+      color: #696969;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #bdbdbd; } }
   @media (min-width: 700px) {
     .page-main .section-hero .row .hero-intro {
       bottom: 90px;
       position: absolute;
-      color: white;
-      border-bottom: none; } }
+      color: white; } }
   @media (min-width: 1000px) {
     .page-main .section-hero .row .hero-intro {
       bottom: 150px; } }
