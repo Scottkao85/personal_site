@@ -1,9 +1,14 @@
 .page-main {
-
+    
+    body {
+        font-family: 'Raleway', sans-serif;  
+     }   
+    
     .section-content {
         overflow-x: hidden;
         padding: 150px auto;
     }
+    
     .section-nav {
         .navbar {
             background-color: #505050;
