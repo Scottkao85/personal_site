@@ -8,6 +8,10 @@
         overflow-x: hidden;
     }
 
+    .theme-alt {
+        background-color: #fafafa;
+    }
+
     .section-nav {
         .navbar {
             background-color: #505050;
@@ -26,6 +30,7 @@
     }
 
     .section-hero {
+        background-color: #262626;
         .hero-image {
             margin: 0 auto;
         }
@@ -63,7 +68,7 @@
         height: 1000px;
         .skills-container {
             margin-top: 50px;
-            @media (max-width: 500px) {
+            @media (max-width: 800px) {
                 text-align: center;
             }
             .skill-level {
@@ -81,7 +86,8 @@
 
     .section-contact {
         .container {
-            margin: 0 auto 80px;
+            margin: 0 auto;
+            padding-bottom: 80px;
         }
     }
 

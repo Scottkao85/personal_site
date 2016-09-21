@@ -4,6 +4,9 @@
 .page-main .section-content {
   overflow-x: hidden; }
 
+.page-main .theme-alt {
+  background-color: #fafafa; }
+
 .page-main .section-nav .navbar {
   background-color: #505050; }
 
@@ -17,25 +20,26 @@
   text-decoration: none;
   color: #4682B4; }
 
-.page-main .section-hero .hero-image {
-  margin: 0 auto; }
-
-.page-main .section-hero .row {
-  position: relative; }
-  @media (min-width: 400px) {
-    .page-main .section-hero .row .hero-intro {
-      position: relative;
-      color: #696969;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #bdbdbd; } }
-  @media (min-width: 700px) {
-    .page-main .section-hero .row .hero-intro {
-      bottom: 90px;
-      position: absolute;
-      color: white; } }
-  @media (min-width: 1000px) {
-    .page-main .section-hero .row .hero-intro {
-      bottom: 150px; } }
+.page-main .section-hero {
+  background-color: #262626; }
+  .page-main .section-hero .hero-image {
+    margin: 0 auto; }
+  .page-main .section-hero .row {
+    position: relative; }
+    @media (min-width: 400px) {
+      .page-main .section-hero .row .hero-intro {
+        position: relative;
+        color: #696969;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #bdbdbd; } }
+    @media (min-width: 700px) {
+      .page-main .section-hero .row .hero-intro {
+        bottom: 90px;
+        position: absolute;
+        color: white; } }
+    @media (min-width: 1000px) {
+      .page-main .section-hero .row .hero-intro {
+        bottom: 150px; } }
 
 .page-main .section-about .intro-container {
   margin-top: 50px; }
@@ -44,7 +48,7 @@
   height: 1000px; }
   .page-main .section-experience .skills-container {
     margin-top: 50px; }
-    @media (max-width: 500px) {
+    @media (max-width: 800px) {
       .page-main .section-experience .skills-container {
         text-align: center; } }
     .page-main .section-experience .skills-container .skill-level {
@@ -57,7 +61,8 @@
   background-color: green; }
 
 .page-main .section-contact .container {
-  margin: 0 auto 80px; }
+  margin: 0 auto;
+  padding-bottom: 80px; }
 
 .page-main .section-about .title,
 .page-main .section-experience .title,
