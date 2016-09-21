@@ -2,8 +2,7 @@
   font-family: 'Raleway', sans-serif; }
 
 .page-main .section-content {
-  overflow-x: hidden;
-  padding: 150px auto; }
+  overflow-x: hidden; }
 
 .page-main .section-nav .navbar {
   background-color: #505050; }
@@ -40,11 +39,14 @@
 
 .page-main .section-about .intro-container {
   margin: 50px auto 90px; }
-  .page-main .section-about .intro-container .intro-copy {
-    margin-top: 100px; }
 
 .page-main .section-experience {
   height: 1000px; }
+  .page-main .section-experience .skills-container {
+    margin-top: 50px auto 90px; }
+  .page-main .section-experience .skill-level h4 {
+    color: #4682B4;
+    font-weight: 500; }
 
 .page-main .section-project {
   height: 1000px;

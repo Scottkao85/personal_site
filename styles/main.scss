@@ -6,7 +6,6 @@
 
     .section-content {
         overflow-x: hidden;
-        padding: 150px auto;
     }
 
     .section-nav {
@@ -55,13 +54,22 @@
         .intro-container {
             margin: 50px auto 90px;
             .intro-copy {
-                margin-top: 100px;
+                // margin-top: 36px;
             }
         }
     }
 
     .section-experience {
         height: 1000px;
+        .skills-container {
+            margin-top: 50px auto 90px;
+        }
+        .skill-level {
+            h4 {
+                color: #4682B4;
+                font-weight: 500;
+            }
+        }
     }
 
     .section-project {
