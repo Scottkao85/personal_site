@@ -38,15 +38,19 @@
       bottom: 150px; } }
 
 .page-main .section-about .intro-container {
-  margin: 50px auto 90px; }
+  margin-top: 50px; }
 
 .page-main .section-experience {
   height: 1000px; }
   .page-main .section-experience .skills-container {
-    margin-top: 50px auto 90px; }
-  .page-main .section-experience .skill-level h4 {
-    color: #4682B4;
-    font-weight: 500; }
+    margin-top: 50px; }
+    @media (max-width: 500px) {
+      .page-main .section-experience .skills-container {
+        text-align: center; } }
+    .page-main .section-experience .skills-container .skill-level {
+      color: #4682B4;
+      font-weight: 400;
+      margin-bottom: 6px; }
 
 .page-main .section-project {
   height: 1000px;
