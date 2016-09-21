@@ -13,6 +13,11 @@
   font-weight: 300;
   margin: 16px auto; }
 
+.page-main .section-nav .nav-content:hover {
+  font-weight: 500;
+  text-decoration: none;
+  color: #4682B4; }
+
 .page-main .section-hero .hero-image {
   margin: 0 auto; }
 
@@ -34,13 +39,12 @@
       bottom: 150px; } }
 
 .page-main .section-about .intro-container {
-  margin-top: 50px; }
+  margin: 50px auto 90px; }
   .page-main .section-about .intro-container .intro-copy {
     margin-top: 100px; }
 
 .page-main .section-experience {
-  height: 1000px;
-  background-color: yellow; }
+  height: 1000px; }
 
 .page-main .section-project {
   height: 1000px;
