@@ -80,8 +80,26 @@
     }
 
     .section-project {
-        height: 1000px;
-        background-color: green;
+        .project-container {
+            margin-top: 50px;
+
+            .sample-project {
+                height: 250px;
+                margin-top: 30px;
+            }
+            .sample-project-1 {
+                background-color: yellow;
+            }
+            .sample-project-2 {
+                background-color: green;
+            }
+            .sample-project-3 {
+                background-color: red;
+            }
+            .sample-project-4 {
+                background-color: blue;
+            }
+        }
     }
 
     .section-contact {
