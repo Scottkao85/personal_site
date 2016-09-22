@@ -41,8 +41,10 @@
       .page-main .section-hero .row .hero-intro {
         bottom: 150px; } }
 
-.page-main .section-about .intro-container {
-  margin-top: 50px; }
+.page-main .section-about {
+  padding-bottom: 90px; }
+  .page-main .section-about .intro-container {
+    margin-top: 50px; }
 
 .page-main .section-experience {
   height: 1000px; }
