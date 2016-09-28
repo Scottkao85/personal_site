@@ -14,34 +14,32 @@
     font-weight: 500;
     text-decoration: none;
     color: #4682B4; }
-  .page-main .section-hero {
-    background-color: #262626; }
-    .page-main .section-hero .hero-image {
-      margin: 0 auto; }
-    .page-main .section-hero .row {
-      position: relative; }
-      @media (min-width: 400px) {
-        .page-main .section-hero .row .hero-intro {
-          position: relative;
-          color: #696969;
-          padding-bottom: 20px;
-          border-bottom: 1px solid #bdbdbd; } }
-      @media (min-width: 700px) {
-        .page-main .section-hero .row .hero-intro {
-          bottom: 90px;
-          position: absolute;
-          color: white; } }
-      @media (min-width: 1000px) {
-        .page-main .section-hero .row .hero-intro {
-          bottom: 150px; } }
-  .page-main .section-about {
-    padding-bottom: 90px; }
-    .page-main .section-about .intro-container {
-      margin-top: 50px; }
+  .page-main .section-hero .hero-image {
+    margin: 0 auto; }
+  .page-main .section-hero .row {
+    position: relative; }
+    @media (min-width: 400px) {
+      .page-main .section-hero .row .hero-intro {
+        position: relative;
+        color: #696969;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #bdbdbd; } }
+    @media (min-width: 700px) {
+      .page-main .section-hero .row .hero-intro {
+        bottom: 90px;
+        position: absolute;
+        color: white; } }
+    @media (min-width: 1000px) {
+      .page-main .section-hero .row .hero-intro {
+        bottom: 150px; } }
+  .page-main .section-about .intro-container {
+    margin-top: 120px;
+    margin-bottom: 120px; }
   .page-main .section-experience {
     height: 1000px; }
     .page-main .section-experience .skills-container {
-      margin-top: 50px; }
+      margin-top: 120px;
+      margin-bottom: 120px; }
       @media (max-width: 800px) {
         .page-main .section-experience .skills-container {
           text-align: center; } }
@@ -50,10 +48,13 @@
         font-weight: 400;
         margin-bottom: 6px; }
   .page-main .section-project .project-container {
-    margin-top: 50px; }
+    margin-top: 120px;
+    margin-bottom: 120px; }
     .page-main .section-project .project-container .sample-project {
       height: 250px;
       margin-top: 30px; }
+      .page-main .section-project .project-container .sample-project .project-name {
+        line-height: 250px; }
     .page-main .section-project .project-container .sample-project-1 {
       background-color: yellow; }
     .page-main .section-project .project-container .sample-project-2 {
@@ -62,9 +63,9 @@
       background-color: red; }
     .page-main .section-project .project-container .sample-project-4 {
       background-color: blue; }
-  .page-main .section-contact .container {
-    margin: 0 auto;
-    padding-bottom: 80px; }
+  .page-main .section-contact .contact-container {
+    margin-top: 70px;
+    padding-bottom: 120px; }
   .page-main .section-about .title,
   .page-main .section-experience .title,
   .page-main .section-project .title,

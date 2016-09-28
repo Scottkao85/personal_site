@@ -27,7 +27,7 @@
     }
 
     .section-hero {
-        background-color: #262626;
+        // background-color: #262626;
         .hero-image {
             margin: 0 auto;
         }
@@ -85,6 +85,9 @@
             .sample-project {
                 height: 250px;
                 margin-top: 30px;
+                .project-name {
+                    line-height: 250px;
+                }
             }
             .sample-project:hover {
 
