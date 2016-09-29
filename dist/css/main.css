@@ -51,10 +51,15 @@
     margin-top: 120px;
     margin-bottom: 120px; }
     .page-main .section-project .project-container .sample-project {
+      color: white;
+      font-weight: 300;
       height: 250px;
       margin-top: 30px; }
       .page-main .section-project .project-container .sample-project .project-name {
-        line-height: 250px; }
+        line-height: 250px;
+        margin: 0 auto; }
+    .page-main .section-project .project-container .sample-project:hover {
+      text-decoration: none; }
     .page-main .section-project .project-container .sample-project-1 {
       background-color: yellow; }
     .page-main .section-project .project-container .sample-project-2 {
@@ -80,3 +85,9 @@
   .page-main .section-contact .icon {
     width: 64px;
     margin: 20px; }
+  .page-main .section-about .icon:hover,
+  .page-main .section-experience .icon:hover,
+  .page-main .section-project .icon:hover,
+  .page-main .section-contact .icon:hover {
+    text-decoration: none;
+    width: 80px; }

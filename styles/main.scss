@@ -83,13 +83,17 @@
             margin-top: 120px;
             margin-bottom: 120px;
             .sample-project {
+                color: white;
+                font-weight: 300;
                 height: 250px;
                 margin-top: 30px;
                 .project-name {
                     line-height: 250px;
+                    margin: 0 auto;
                 }
             }
             .sample-project:hover {
+                text-decoration: none;
 
             }
             .sample-project-1 {
@@ -128,6 +132,11 @@
         .icon {
             width: 64px;
             margin: 20px;
+        }
+        .icon:hover {
+            text-decoration: none;
+            width: 80px;
+
         }
     }
 }
