@@ -26,12 +26,14 @@
         border-bottom: 1px solid #bdbdbd; } }
     @media (min-width: 700px) {
       .page-main .section-hero .row .hero-intro {
-        bottom: 90px;
+        bottom: 280px;
+        right: 82px;
         position: absolute;
-        color: white; } }
+        color: #3f3f3f; } }
     @media (min-width: 1000px) {
       .page-main .section-hero .row .hero-intro {
-        bottom: 150px; } }
+        bottom: 460px;
+        right: 200px; } }
   .page-main .section-about .intro-container {
     margin-top: 120px;
     margin-bottom: 120px; }
@@ -54,24 +56,16 @@
       color: white;
       font-weight: 300;
       height: 250px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      border: 1px solid black; }
       .page-main .section-project .project-container .sample-project .project-name {
         line-height: 250px;
         margin: 0 auto; }
     .page-main .section-project .project-container .sample-project:hover {
-      text-decoration: none;
       background-color: #4682B4; }
-    .page-main .section-project .project-container .sample-project-1 {
-      border: 1px solid #4682B4; }
-    .page-main .section-project .project-container .sample-project-2 {
-      border-top: 1px solid #4682B4;
-      border-right: 1px solid #4682B4;
-      border-bottom: 1px solid #4682B4; }
-    .page-main .section-project .project-container .sample-project-3 {
-      border: 1px solid #4682B4; }
-    .page-main .section-project .project-container .sample-project-4 {
-      border-right: 1px solid #4682B4;
-      border-bottom: 1px solid #4682B4; }
+    .page-main .section-project .project-container .sample-project:hover a {
+      text-decoration: none;
+      color: white; }
   .page-main .section-contact .contact-container {
     margin-top: 70px;
     padding-bottom: 120px; }
