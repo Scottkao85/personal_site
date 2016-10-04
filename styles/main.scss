@@ -87,6 +87,7 @@
                 font-weight: 300;
                 height: 250px;
                 margin-top: 30px;
+                // border: 1px solid black;
                 .project-name {
                     line-height: 250px;
                     margin: 0 auto;
@@ -94,19 +95,25 @@
             }
             .sample-project:hover {
                 text-decoration: none;
-
+                background-color: #4682B4;
             }
             .sample-project-1 {
-                background-color: yellow;
+                border: 1px solid #4682B4;
+                // border-top: 1px solid #4682B4;
+                // border-bottom: 1px solid #4682B4;
             }
             .sample-project-2 {
-                background-color: green;
+                border-top: 1px solid #4682B4;
+                border-right: 1px solid #4682B4;
+                border-bottom: 1px solid #4682B4;
             }
             .sample-project-3 {
-                background-color: red;
+                border: 1px solid #4682B4;
+                // border-bottom: 1px solid #4682B4;
             }
             .sample-project-4 {
-                background-color: blue;
+                border-right: 1px solid #4682B4;
+                border-bottom: 1px solid #4682B4;
             }
         }
     }

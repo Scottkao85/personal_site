@@ -59,15 +59,19 @@
         line-height: 250px;
         margin: 0 auto; }
     .page-main .section-project .project-container .sample-project:hover {
-      text-decoration: none; }
+      text-decoration: none;
+      background-color: #4682B4; }
     .page-main .section-project .project-container .sample-project-1 {
-      background-color: yellow; }
+      border: 1px solid #4682B4; }
     .page-main .section-project .project-container .sample-project-2 {
-      background-color: green; }
+      border-top: 1px solid #4682B4;
+      border-right: 1px solid #4682B4;
+      border-bottom: 1px solid #4682B4; }
     .page-main .section-project .project-container .sample-project-3 {
-      background-color: red; }
+      border: 1px solid #4682B4; }
     .page-main .section-project .project-container .sample-project-4 {
-      background-color: blue; }
+      border-right: 1px solid #4682B4;
+      border-bottom: 1px solid #4682B4; }
   .page-main .section-contact .contact-container {
     margin-top: 70px;
     padding-bottom: 120px; }
