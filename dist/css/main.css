@@ -3,7 +3,7 @@
   .page-main .section-content {
     overflow-x: hidden; }
   .page-main .theme-alt {
-    background-color: #fafafa; }
+    background-color: #f1f1f1; }
   .page-main .section-nav .navbar {
     background-color: #505050; }
   .page-main .section-nav .nav-content {
@@ -54,7 +54,6 @@
     margin-bottom: 120px; }
     .page-main .section-project .project-container .sample-project {
       color: white;
-      font-weight: 300;
       height: 250px;
       margin-top: 30px;
       border: 1px solid black; }
@@ -74,6 +73,7 @@
   .page-main .section-project .title,
   .page-main .section-contact .title {
     padding-top: 80px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #909090;
     width: 400px;
     margin: 0 auto; }

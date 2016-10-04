@@ -7,7 +7,7 @@
     }
 
     .theme-alt {
-        background-color: #fafafa;
+        background-color: #f1f1f1;
     }
 
     .section-nav {
@@ -86,7 +86,6 @@
             margin-bottom: 120px;
             .sample-project {
                 color: white;
-                font-weight: 300;
                 height: 250px;
                 margin-top: 30px;
                 border: 1px solid black;
@@ -137,6 +136,7 @@
     .section-contact {
         .title {
             padding-top: 80px;
+            padding-bottom: 20px;
             border-bottom: 1px solid #909090;
             width: 400px;
             margin: 0 auto;
