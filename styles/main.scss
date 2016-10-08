@@ -4,6 +4,7 @@
 
     .section-content {
         overflow-x: hidden;
+        font-size: 18px;
     }
 
     .theme-alt {
@@ -75,7 +76,10 @@
             .skill-level {
                 color: #4682B4;
                 font-weight: 400;
-                margin-bottom: 6px;
+                font-size: 40px;
+            }
+            .skill-list {
+                margin-top: 30px;
             }
         }
     }
