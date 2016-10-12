@@ -66,10 +66,8 @@
     }
 
     .section-experience {
-        height: 1000px;
         .skills-container {
             margin-top: 120px;
-            margin-bottom: 120px;
             @media (max-width: 800px) {
                 text-align: center;
             }
@@ -80,6 +78,18 @@
             }
             .skill-list {
                 margin-top: 30px;
+            }
+        }
+        .resume-container {
+            margin: 120px auto;
+            .company-container {
+                margin-top: 60px;
+            }
+            .company-info {
+                margin-top: 30px;
+            }
+            .job-description {
+                margin-top: 20px;
             }
         }
     }

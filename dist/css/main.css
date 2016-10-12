@@ -38,20 +38,25 @@
   .page-main .section-about .intro-container {
     margin-top: 120px;
     margin-bottom: 120px; }
-  .page-main .section-experience {
-    height: 1000px; }
-    .page-main .section-experience .skills-container {
-      margin-top: 120px;
-      margin-bottom: 120px; }
-      @media (max-width: 800px) {
-        .page-main .section-experience .skills-container {
-          text-align: center; } }
-      .page-main .section-experience .skills-container .skill-level {
-        color: #4682B4;
-        font-weight: 400;
-        font-size: 30px; }
-      .page-main .section-experience .skills-container .skill-list {
-        margin-top: 30px; }
+  .page-main .section-experience .skills-container {
+    margin-top: 120px; }
+    @media (max-width: 800px) {
+      .page-main .section-experience .skills-container {
+        text-align: center; } }
+    .page-main .section-experience .skills-container .skill-level {
+      color: #4682B4;
+      font-weight: 400;
+      font-size: 30px; }
+    .page-main .section-experience .skills-container .skill-list {
+      margin-top: 30px; }
+  .page-main .section-experience .resume-container {
+    margin: 120px auto; }
+    .page-main .section-experience .resume-container .company-container {
+      margin-top: 60px; }
+    .page-main .section-experience .resume-container .company-info {
+      margin-top: 30px; }
+    .page-main .section-experience .resume-container .job-description {
+      margin-top: 20px; }
   .page-main .section-project .project-container {
     margin-top: 120px;
     margin-bottom: 120px; }
