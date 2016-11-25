@@ -1,5 +1,5 @@
 .page-main {
-  font-family: 'Noto Sans', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
   .page-main .section-content {
     overflow-x: hidden;
     font-size: 18px; }
@@ -16,7 +16,8 @@
     text-decoration: none;
     color: #4682B4; }
   .page-main .section-hero .hero-image {
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: auto; }
   .page-main .section-hero .row {
     position: relative; }
     @media (min-width: 400px) {
