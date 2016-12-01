@@ -85,12 +85,15 @@
             margin: 120px auto;
             .company-container {
                 margin-top: 60px;
-            }
-            .company-info {
-                margin-top: 30px;
-            }
-            .job-description {
-                margin-top: 20px;
+                .company-info {
+                    .company {
+                        color: #4682B4;
+                    }
+                    margin-top: 30px;
+                    .job-description {
+                        margin-top: 20px;
+                    }
+                }
             }
         }
     }

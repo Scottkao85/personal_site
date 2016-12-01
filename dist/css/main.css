@@ -54,10 +54,12 @@
     margin: 120px auto; }
     .page-main .section-experience .resume-container .company-container {
       margin-top: 60px; }
-    .page-main .section-experience .resume-container .company-info {
-      margin-top: 30px; }
-    .page-main .section-experience .resume-container .job-description {
-      margin-top: 20px; }
+      .page-main .section-experience .resume-container .company-container .company-info {
+        margin-top: 30px; }
+        .page-main .section-experience .resume-container .company-container .company-info .company {
+          color: #4682B4; }
+        .page-main .section-experience .resume-container .company-container .company-info .job-description {
+          margin-top: 20px; }
   .page-main .section-project .project-container {
     margin-top: 120px;
     margin-bottom: 120px; }

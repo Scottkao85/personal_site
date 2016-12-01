@@ -7,6 +7,11 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('./dist/css/'));
 });
 
+gulp.task('js', function() {
+    gulp.src('js/*.js')
+        .pipe(gulp.dest('./dist/js/'));
+})
+
 //Watch task
 gulp.task('default',function() {
     gulp.watch('styles/*.scss',['styles']);
