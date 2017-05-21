@@ -1,0 +1,34 @@
+.body {
+  font-family: 'Nunito', sans-serif;
+
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .section-hero {
+    .hero-image {
+      position: relative;
+      width: 100%;
+      height: 100%;
+
+    }
+    .hero-headline {
+      position: absolute;
+      top: 40%;
+      width: 100%;
+    }
+  }
+
+  .section-body {
+      height:100vh;
+    .body-container {
+      position: relative;
+      .body-image {
+        max-height: 100%;
+        overflow-y: hidden;
+      }
+    }
+
+
+}
