@@ -1,59 +1,76 @@
-<doctype <html>
+<!doctype html>
+<html>
 <head>
-  <title>Scott Kao</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./dist/css/main2.css" />
-  <link href="styles/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Scott Kao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./dist/css/main2.css" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="./dist/js/jquery.easings.min.js"></script>
-  <script type="text/javascript" src="./dist/js/jquery.fullPage.min.js"></script>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./dist/js/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="./dist/js/jquery.fullPage.min.js"></script>
+</head> 
 
-<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />    
+<body>
+    <div id="fullpage">
+        <section id="hero" class="section section-hero">
+            <img class="hero-image img-responsive" src="./images/hero-image.jpg">
+            <h1 class="hero-headline text-center hide-small">Hello World.</h1>
+            </img>
+            <h1 class="hero-headline text-center show-small">Hello World.</h1>
+        </section>
 
-<body class="body">
-  <div id="fullpage">
-    <div class="section section-hero">
-      <img class="hero-image img-responsive" src="./images/hero-image.jpg">
-        <h1 class="hero-headline text-center hide-small">Hello World.</h1>
-      </img>
-      <h1 class="hero-headline text-center show-small">Hello World.</h1>
-    </div>
-
-    <div class="section section-body">
-        <!-- <div class="row body-container">
-          <img src="./images/DSC04783.jpg.crdownload" class="img-responsive col-md-6 body-image">
-          <div class="col-md-6">
+        <section id="body" class="section section-body">
             <div class="row">
-              <h3 class="col-md-3">Who am I?</h3>
-              <div class="col-md-9">
-                <p>Hi there! My name is Scott Kao and I am a Frontend Engineer living in sunny California.</p>
-
-                <p>I am SKILLED in Javascript, HTML5, CSS3, Gulp, Angular, Bootstrap, jQuery, D3, Git, SVN, Docco, UnderscoreJS, Kanban, Agile Development</p>
-
-                <P>I also have PRIOR EXPERIENCE working with React, Backbone, Grunt, Node, MongoDB, Photoshop, Mocha, Chai, SQL, CoffeeScript, Ionic, Cordova, Google Analytics, Word Press</P>
-
-              </div>
+                <img class="col-md-6" src="./images/body-img.jpg"></img>
+                <div class="col-md-6">
+                    <div class="who-container">
+                        <h3>Who Am I</h3>
+                        <p>Hey There! My name is Scott Kao and I'm a Front-end Engineer living in sunny California.</p>
+                        <p>I am EXPERIENCED with Javascript, HTML5, CSS3, Gulp, Angular, Bootstrap, jQuery, D3, Git, SVN, Docco, UnderscoreJS, Kanban, Agile Development</p>
+                        <p>I also have PRIOR EXPERIENCE working with React, Backbone, Grunt, Node, MongoDB, Photoshop, Mocha, Chai, SQL, CoffeeScript, Ionic, Cordova, Google Analytics, Word Press</p>
+                    </div>
+                    <div class="what-container">
+                        <h3>What I've Done.</h3>
+                        <p>Specialized in creating B2C websites for a top fortune 500 tech company and worked onsite for their major launch projects that's viewed in 155 countries and translated into 40 different languages.</p>
+                        <p>Developed and updated responsive website for desktop and mobile following latest dev standards using HTML, SCSS and JS.</p>
+                        <p>Built the frontend UI-routing, form validation, AngularJS directive, controller and service logic of a performance review app.</p>
+                        <p>Designed and developed a data visualization module using D3.js with customizable optional parameters for users.</p>
+                        <p>Integrated Google Analytics for mobile app, allowing admins to track precise user interaction and bounce rate in real-time.</p>
+                        <p>Utilized GulpJS to minify, uglify and concatenate all file, as well as tasks to watch and serve local host during development.</p>
+                        <p>Collaborated with PM, designer, graphic production and QA team to ensure client requirements and deadline are met for each project.</p>
+                        <p>Bolstered agile methodology with LOE, sprint planning, daily stand-ups, QA and postmortem during each project cycle.</p>
+                    </div>
+                </div>
             </div>
+            
 
-             <div class="row">
-              <h3 class="col-md-3">What have I done?</h3>
-              <div class="col-md-9">
-                <p> </p>
-              </div>
+        </section>
+        <section id="contact" class="section section-contact">
+            <h2 class="text-center">Let's get in touch!</h2>
+            <div class="contact-container row text-center">
+                <a href="mailto:scottkao85@gmail.com?subject=Hello!" class="">
+                    <img class="icon" src="./images/gmail_icon.svg" />
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/scottkao85">
+                    <img class="icon" src="./images/linkedin_icon.svg" />
+                </a>
+                <a target="_blank" href="https://github.com/scottkao85">
+                    <img class="icon" src="./images/github_icon.svg" />
+                </a>
+                <a target="_blank" href="https://www.facebook.com/scott.kao.5">
+                    <img class="icon facebook" src="./images/facebook_icon.svg" />
+                </a>
             </div>
-          </div>
-        </div> -->
+        </section>
     </div>
-  </div>
 
 
-  <script type="text/javascript" src="./dist/js/jquery.fullPage.min.js"></script>
-  <script> $(document).ready(function() { $('#fullpage').fullpage();});</script>
+    <script type="text/javascript" src="./dist/js/jquery.fullPage.min.js"></script>
+    <script> $(document).ready(function() { $('#fullpage').fullpage();});</script>
 
 </body>
 </html>

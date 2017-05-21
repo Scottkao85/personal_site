@@ -1,8 +1,22 @@
-.body {
+body {
   font-family: 'Nunito', sans-serif; }
-  .body .section-hero .hero-image {
-    position: relative; }
-    .body .section-hero .hero-image .hero-headline {
-      position: absolute;
-      top: 40%;
-      width: 100%; }
+  body .section-hero .hero-image {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  body .section-hero .hero-headline {
+    position: absolute;
+    top: 40%;
+    width: 100%; }
+  body .section-body {
+    padding-right: 50px; }
+    body .section-body .who-container,
+    body .section-body .what-container {
+      margin-top: 80px; }
+  body .section-contact {
+    background-color: #f1f1f1; }
+    body .section-contact .icon {
+      width: 64px;
+      margin: 20px; }
+    body .section-contact .icon:hover {
+      background: black; }
