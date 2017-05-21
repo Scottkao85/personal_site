@@ -1,32 +1,27 @@
 .body {
   font-family: 'Nunito', sans-serif;
 
-  section {
-    width: 100%;
-    height: 100vh;
-  }
-
   .section-hero {
     .hero-image {
       position: relative;
-      width: 100%;
-      height: 100%;
+      // width: 100%;
+      // height: 100%;
 
-    }
-    .hero-headline {
-      position: absolute;
-      top: 40%;
-      width: 100%;
+      .hero-headline {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+      }
     }
   }
 
   .section-body {
-      height:100vh;
+      // height:100vh;
     .body-container {
-      position: relative;
+      // position: relative;
       .body-image {
-        max-height: 100%;
-        overflow-y: hidden;
+        // max-height: 100%;
+        // overflow-y: hidden;
       }
     }
   }
