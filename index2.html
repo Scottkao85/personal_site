@@ -15,7 +15,26 @@
 </head> 
 
 <body>
+    <div class="vNav">
+       <ul class="vNav">
+            <li>
+                <a href="#hero">
+                </a>
+            </li>
+            <li>
+                <a href="#body">
+                </a>
+            </li>
+            <li>
+                <a href="#contact"> 
+                </a>
+            </li>
+         </ul>
+    </div>
     <div id="fullpage">
+
+        <!-- dot nav -->
+
         <section id="hero" class="section section-hero">
             <img class="hero-image img-responsive" src="./images/hero-image.jpg">
             <h1 class="hero-headline text-center hide-small">Hello World.</h1>
@@ -25,11 +44,11 @@
 
         <section id="body" class="section section-body">
             <div class="row">
-                <img class="col-md-6" src="./images/body-img.jpg"></img>
+                <img class="col-md-5 body-image" src="./images/profile-img.jpeg"></img>
                 <div class="col-md-6">
                     <div class="who-container">
-                        <h3>Who Am I</h3>
-                        <p>Hey There! My name is Scott Kao and I'm a Front-end Engineer living in sunny California.</p>
+                        <h3>Who Am I.</h3>
+                        <p>Hey there! My name is Scott Kao and I'm a Front-end Engineer living in sunny California.</p>
                         <p>I am EXPERIENCED with Javascript, HTML5, CSS3, Gulp, Angular, Bootstrap, jQuery, D3, Git, SVN, Docco, UnderscoreJS, Kanban, Agile Development</p>
                         <p>I also have PRIOR EXPERIENCE working with React, Backbone, Grunt, Node, MongoDB, Photoshop, Mocha, Chai, SQL, CoffeeScript, Ionic, Cordova, Google Analytics, Word Press</p>
                     </div>
@@ -46,9 +65,8 @@
                     </div>
                 </div>
             </div>
-            
-
         </section>
+
         <section id="contact" class="section section-contact">
             <h2 class="text-center">Let's get in touch!</h2>
             <div class="contact-container row text-center">
@@ -71,6 +89,7 @@
 
     <script type="text/javascript" src="./dist/js/jquery.fullPage.min.js"></script>
     <script> $(document).ready(function() { $('#fullpage').fullpage();});</script>
+    <script type="text/javascript" src="./js/main.js"></script>
 
 </body>
 </html>
